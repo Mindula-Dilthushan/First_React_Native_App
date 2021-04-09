@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'start@latest',
+1 verbose cli   '--global',
+1 verbose cli   '--prefix',
+1 verbose cli   'D:\\MyWorksSpace\\React',
+1 verbose cli   'Native',
+1 verbose cli   'Projects\\First_React_Native_App\\_npx\\4340',
+1 verbose cli   '--loglevel',
+1 verbose cli   'error',
+1 verbose cli   '--json'
+1 verbose cli ]
+2 info using npm@6.14.11
+3 info using node@v14.16.0
+4 verbose npm-session 7df5d3e7fae66aa0
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData error for file:Projects\First_React_Native_App\_npx\4340 Could not install from "Projects\First_React_Native_App\_npx\4340" as it does not contain a package.json file.
+8 http fetch GET 200 https://registry.npmjs.org/start 209ms (from cache)
+9 silly pacote tag manifest for start@latest fetched in 241ms
+10 warn deprecated start@5.1.0: Deprecated in favor of https://github.com/deepsweet/start
+11 http fetch GET 404 https://registry.npmjs.org/Native 383ms
+12 http fetch GET 404 https://registry.npmjs.org/Native 71ms
+13 silly fetchPackageMetaData error for Native@latest 404 Not Found - GET https://registry.npmjs.org/Native - Not found
+14 timing stage:rollbackFailedOptional Completed in 1ms
+15 timing stage:runTopLevelLifecycles Completed in 582ms
+16 verbose stack Error: ENOENT: no such file or directory, open 'D:\MyWorksSpace\React Native Projects\First_React_Native_App\Projects\First_React_Native_App\_npx\4340\package.json'
+17 verbose cwd D:\MyWorksSpace\React Native Projects\First_React_Native_App
+18 verbose Windows_NT 10.0.19042
+19 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "start@latest" "--global" "--prefix" "D:\\MyWorksSpace\\React" "Native" "Projects\\First_React_Native_App\\_npx\\4340" "--loglevel" "error" "--json"
+20 verbose node v14.16.0
+21 verbose npm  v6.14.11
+22 error code ENOLOCAL
+23 error Could not install from "Projects\First_React_Native_App\_npx\4340" as it does not contain a package.json file.
+24 verbose exit [ 1, true ]
